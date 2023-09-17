@@ -45,7 +45,7 @@ possible_chars_tuple = (
 #  VARS -> for client side (communication with server):
 HEADER, PORT = 2048, 5050
 FORMAT, DISCONNECT_MESSAGE, PASS_CRACK_MESSAGE = 'utf-8', "!DISCONNECT!", "!CRACKED!"
-SERVER = "10.100.102.16"
+SERVER = ""  # insert server IP here
 ADDR = (SERVER, PORT)
 server_task_messages_tuple = (
     "REQUEST-BRUTE",
